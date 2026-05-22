@@ -55,7 +55,7 @@ ios_broken/
 Instalador ios/
 
 # Arquivos avulsos na raiz que não pertencem ao projeto
-main.dart
+/main.dart
 logomarca.png
 repomix-output.xml
 auditoria_codigo_py.txt
