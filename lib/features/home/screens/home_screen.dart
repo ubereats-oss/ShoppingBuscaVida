@@ -79,7 +79,7 @@ class _HeroSection extends StatelessWidget {
           ),
         ),
         Container(
-          color: AppColors.blue,
+          color: AppColors.blueMid,
           padding: const EdgeInsets.fromLTRB(18, 12, 18, 12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
