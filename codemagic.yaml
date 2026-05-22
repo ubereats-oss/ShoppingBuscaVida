@@ -21,6 +21,9 @@ workflows:
       - name: Get packages
         script: flutter pub get
 
+      - name: Generate launcher icons
+        script: flutter pub run flutter_launcher_icons
+
       - name: Install pods
         script: cd ios && pod install
 
@@ -59,6 +62,9 @@ workflows:
     scripts:
       - name: Get packages
         script: flutter pub get
+
+      - name: Generate launcher icons
+        script: flutter pub run flutter_launcher_icons
 
       - name: Build iOS (no codesign)
         script: flutter build ios --release --no-codesign
