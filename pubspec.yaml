@@ -24,6 +24,6 @@ flutter:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/images/logo_sbv.png"
+  image_path: "assets/images/icon_sbv.png"
   adaptive_icon_background: "#1479BF"
-  adaptive_icon_foreground: "assets/images/logo_sbv.png"
+  adaptive_icon_foreground: "assets/images/icon_sbv.png"
