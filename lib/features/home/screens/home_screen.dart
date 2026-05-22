@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarColor: Color(0xFF1479BF),
+      statusBarColor: Color(0xFF1168A8),
       statusBarIconBrightness: Brightness.light,
     ));
 
@@ -55,7 +55,7 @@ class _HeroSection extends StatelessWidget {
     return Column(
       children: [
         Container(
-          color: const Color(0xFF1479BF),
+          color: const Color(0xFF1168A8),
           padding: EdgeInsets.only(
             top: MediaQuery.of(context).padding.top,
             left: 18,
@@ -79,7 +79,7 @@ class _HeroSection extends StatelessWidget {
           ),
         ),
         Container(
-          color: AppColors.blueMid,
+          color: AppColors.blue,
           padding: const EdgeInsets.fromLTRB(18, 12, 18, 12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
