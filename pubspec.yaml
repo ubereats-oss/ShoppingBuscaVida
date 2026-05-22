@@ -1,0 +1,29 @@
+name: sbv_app
+description: App oficial do Shopping Busca Vida.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  config:
+    enable-swift-package-manager: false
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/lojas/
+    
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_sbv.png"
+  adaptive_icon_background: "#1479BF"
+  adaptive_icon_foreground: "assets/images/logo_sbv.png"
