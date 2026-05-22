@@ -1,7 +1,7 @@
 name: sbv_app
 description: App oficial do Shopping Busca Vida.
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
