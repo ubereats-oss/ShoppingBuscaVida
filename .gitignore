@@ -62,6 +62,11 @@ auditoria_codigo_py.txt
 LEIA_ME.txt
 *.zip
 *.iml
+*.bak
+
+# Logos legadas do projeto SEC
+assets/images/logo_sec.png
+assets/images/logo_sec_old.png
 
 # IntelliJ / Android Studio
 *.iml
